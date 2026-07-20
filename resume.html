@@ -1,231 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elizabeth Lugo | Resume</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elizabeth Lugo | Resume</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
-  <header>
-    <nav>
-      <div class="logo"><a href="index.html">Elizabeth Lugo</a></div>
-      <ul class="nav-links">
-        <li><a href="index.html#about">About</a></li>
-        <li><a href="index.html#projects">Projects</a></li>
-        <li><a href="index.html#excel">Excel Work</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="index.html#blog">Blog</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="resume-hero">
-        <h1>Elizabeth Lugo</h1>
-        <p class="resume-location">Brighton, CO &middot; <a href="tel:+17203941160">(720) 394-1160</a> &middot; <a href="mailto:norcross.beth@gmail.com">norcross.beth@gmail.com</a> &middot; <a href="https://www.linkedin.com/in/beth-norcross-lugo/" target="_blank">LinkedIn</a></p>
-        <a href="images/resume.pdf" download class="download-btn">Download PDF</a>
-    </section>
-
-    <section class="resume-section">
-        <h2>Summary</h2>
-        <p>Data-focused professional with a background in software development at Google and Intel, with hands-on experience in SQL, Excel, and data-driven workflow automation. Bringing a strong analytical foundation to reporting and data analysis roles, with proven ability to improve system performance, automate processes, and translate business needs into clear, actionable insights.</p>
-    </section>
-
-    <section class="resume-section">
-    <h2>Core Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-group">
-            <h3>Data &amp; Reporting</h3>
-            <p>Microsoft Excel (Pivot Tables, XLOOKUP, VLOOKUP, IF/nested formulas, data modeling), Data Cleaning &amp; Transformation, Metrics Analysis, Reporting &amp; Documentation</p>
-            </div>
-            <div class="skill-group">
-            <h3>Databases &amp; Tools</h3>
-            <p>SQL (Oracle SQL, GoogleSQL / BigQuery), Yardi (ConciergeIQ), SmartRent, AppSheet, JIRA, Google Sheets</p>
-            </div>
-            <div class="skill-group">
-            <h3>Technical</h3>
-            <p>Python, JavaScript, VB.NET, Process Automation, API Testing &amp; QA, Requirements Gathering</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="resume-section">
-        <h2>Excel Projects</h2>
-
-        <div class="resume-entry">
-            <h3>Spell Efficiency Calculator — Elden Ring (Excel)</h3>
-            <ul>
-            <li>Built a data model to evaluate and rank spells by cost-to-output efficiency ratio, incorporating multiple damage and resource variables</li>
-            <li>Used nested IF statements, lookup functions, and calculated fields to automate classification of high- vs. low-efficiency options</li>
-            <li>Designed the tool to be reusable and updateable as game variables change — applied the same structured thinking used in business reporting</li>
+        <header>
+            <nav>
+            <div class="logo"><a href="index.html">Elizabeth Lugo</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#excel">Excel Work</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="index.html#blog">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
-        </div>
+            </nav>
+        </header>
 
-        <div class="resume-entry">
-            <h3>Dynamic Pricing &amp; Margin Tool — Supermarket Simulator (Excel / Google Sheets)</h3>
-            <ul>
-            <li>Built a formula-driven pricing tool to calculate optimal markup percentages based on cost inputs and target margin goals</li>
-            <li>Automated 10–20% markup calculations to eliminate manual entry and ensure pricing consistency</li>
-            <li>Structured and maintained a clean dataset to support accurate, repeatable pricing decisions</li>
-            </ul>
-        </div>
+        <main>
+            <section class="resume-hero">
+                <h1 id="resume-name"></h1>
+                <p class="resume-location" id="resume-contact"></p>
+                <div class="download-buttons">
+                <a href="images/resume.pdf" download class="download-btn">Download PDF</a>
+                <a href="images/resume.docx" download class="download-btn">Download .docx</a>
+                </div>
+            </section>
 
-        <div class="resume-entry">
-            <h3>Household Budget &amp; Expense Tracker (Excel)</h3>
-            <ul>
-            <li>Designed a structured monthly budget tracker with categorized expenses, variance analysis, and running totals</li>
-            <li>Applied XLOOKUP and pivot tables to summarize spending patterns and identify areas for adjustment</li>
-            </ul>
-        </div>
-    </section>
+            <section class="resume-section">
+                <h2>Summary</h2>
+                <p id="resume-summary"></p>
+            </section>
 
-    <section class="resume-section">
-        <h2>Work Experience</h2>
+            <section class="resume-section">
+                <h2>Core Skills</h2>
+                <div class="skills-grid" id="resume-skills"></div>
+            </section>
 
-        <div class="resume-entry">
-            <div class="resume-entry-header">
-            <h3>Front Desk Associate | NFC Amenity Management — Denver, CO</h3>
-            <span class="resume-date">Apr 2026 – Present</span>
+            <section class="resume-section">
+                <h2>Excel Projects</h2>
+                <div id="resume-excel-projects"></div>
+            </section>
+
+            <section class="resume-section">
+                <h2>Work Experience</h2>
+                <div id="resume-experience"></div>
+            </section>
+
+            <section class="resume-section">
+                <h2>Education</h2>
+                <div id="resume-education"></div>
+            </section>
+
+            <section class="resume-section">
+                <h2>Recognition</h2>
+                <div id="resume-recognition"></div>
+            </section>
+        </main>
+
+        <script src="resume.js"></script>
+
+        <footer>
+            <div class="footer-content">
+            <p>&copy; 2026 Elizabeth Lugo. Built from scratch.</p>
+            <div class="footer-links">
+                <a href="mailto:norcross.beth@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/beth-norcross-lugo/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Elizabeth-Lugo-Code" target="_blank">GitHub</a>
             </div>
-            <ul>
-            <li>Manages resident records, package intake, and incident logs using Yardi ConciergeIQ and SmartRent, ensuring data accuracy across all entries</li>
-            <li>Tracks and routes maintenance requests and resident inquiries, maintaining organized logs to support operational follow-through</li>
-            <li>Maintains data completeness and consistency in daily shift reports to support management decision-making</li>
-            </ul>
-        </div>
+            </div>
+        </footer>
 
-        <div class="resume-entry">
-            <div class="resume-entry-header">
-            <h3>Career Break — Raising child at home</h3>
-            <span class="resume-date">Dec 2022 – Apr 2026</span>
-            </div>
-            <ul>
-            <li>Continued building technical skills independently through self-directed Excel projects, maintaining proficiency in data modeling, formula logic, and spreadsheet design throughout the break</li>
-            </ul>
-        </div>
-
-        <div class="resume-entry">
-            <div class="resume-entry-header">
-            <h3>Content Creator | YouTube — Remote</h3>
-            <span class="resume-date">Jul 2025 – Dec 2025</span>
-            </div>
-            <ul>
-            <li>Produced and managed 50+ videos, using YouTube Analytics to track performance metrics and optimize content strategy</li>
-            <li>Analyzed audience engagement data to inform publishing decisions, contributing to 60% follower growth over 6 months</li>
-            </ul>
-        </div>
-
-        <div class="resume-entry">
-            <div class="resume-entry-header">
-            <h3>Google (via Accenture / ICONMA) — Austin, TX (Remote)</h3>
-            <span class="resume-date">Mar 2020 – Nov 2022</span>
-            </div>
-
-            <div class="resume-subentry">
-            <div class="resume-entry-header">
-                <h4>UI Front-End Developer</h4>
-                <span class="resume-date">Dec 2021 – Nov 2022</span>
-            </div>
-            <ul>
-                <li>Designed and implemented a web-based internal employee management tool, improving accessibility and usability of internal data for cross-functional teams</li>
-                <li>Improved system performance by 70% through optimization of data processing workflows and backend integrations</li>
-                <li>Supported data integration using BigQuery, enabling data-driven functionality across internal systems</li>
-                <li>Collaborated with stakeholders to gather requirements and translate business needs into technical solutions</li>
-            </ul>
-            </div>
-
-            <div class="resume-subentry">
-            <div class="resume-entry-header">
-                <h4>Application Developer</h4>
-                <span class="resume-date">May 2022 – Jul 2022</span>
-            </div>
-            <ul>
-                <li>Developed a mobile application using AppSheet, leveraging structured Google Sheets data as the backend data source</li>
-                <li>Organized and integrated data sources to ensure accurate, efficient data population and user-facing reliability</li>
-            </ul>
-            </div>
-
-            <div class="resume-subentry">
-            <div class="resume-entry-header">
-                <h4>Workflow Application Developer</h4>
-                <span class="resume-date">Mar 2021 – Nov 2021</span>
-            </div>
-            <ul>
-                <li>Developed and enhanced internal workflows using JavaScript and GoogleSQL to support data processing and reporting visibility</li>
-                <li>Implemented automated tracking solutions that improved team productivity and reporting accuracy</li>
-                <li>Mentored team members and supported onboarding through documentation and knowledge sharing</li>
-            </ul>
-            </div>
-
-            <div class="resume-subentry">
-            <div class="resume-entry-header">
-                <h4>Development Support Specialist II</h4>
-                <span class="resume-date">Mar 2020 – Dec 2020</span>
-            </div>
-            <ul>
-                <li>Supported development and maintenance of data-driven workflows, validating data integrations through API testing and QA</li>
-                <li>Identified and resolved system inefficiencies, improving performance and contributing to faster project delivery</li>
-            </ul>
-            </div>
-        </div>
-
-        <div class="resume-entry">
-            <div class="resume-entry-header">
-            <h3>Software Developer / Programming Consultant | Colorado Farm Bureau Mutual Insurance — Centennial, CO</h3>
-            <span class="resume-date">Jun 2019 – Oct 2019</span>
-            </div>
-            <ul>
-            <li>Analyzed and resolved software and data issues using VB.NET and Oracle SQL, optimizing database input and retrieval efficiency</li>
-            <li>Developed scripts supporting system integration and collaborated with stakeholders to translate business requirements into solutions</li>
-            </ul>
-        </div>
-
-        <div class="resume-entry">
-            <div class="resume-entry-header">
-            <h3>Software Programmer | Intel Corporation — Longmont, CO</h3>
-            <span class="resume-date">Apr 2017 – May 2018</span>
-            </div>
-            <ul>
-            <li>Developed and optimized Python scripts to process and organize large datasets related to firmware packaging across multiple customer requirements</li>
-            <li>Automated repetitive data workflows, improving operational efficiency and standardizing outputs</li>
-            <li>Managed work tracking in JIRA; maintained data integrity using version control tools</li>
-            </ul>
-        </div>
-        </section>
-
-        <section class="resume-section">
-        <h2>Education</h2>
-        <div class="resume-entry">
-            <div class="resume-entry-header">
-            <h3>B.S. Computer Information Systems, Software Development</h3>
-            <span class="resume-date">2020</span>
-            </div>
-            <p>DeVry University &middot; Dean's List (2016–2020) &middot; Sigma Alpha Pi – National Society of Leadership and Success</p>
-        </div>
-        </section>
-
-        <section class="resume-section">
-        <h2>Recognition</h2>
-        <p>Employee Excellence Nomination — Colorado Farm Bureau Mutual Insurance (2019)</p>
-    </section>
-    </main>
-
-  <footer>
-    <div class="footer-content">
-      <p>&copy; 2026 Elizabeth Lugo. Built from scratch.</p>
-      <div class="footer-links">
-        <a href="mailto:norcross.beth@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/beth-norcross-lugo/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/Elizabeth-Lugo-Code" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </footer>
-
-</body>
+    </body>
 </html>
