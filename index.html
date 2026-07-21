@@ -13,14 +13,19 @@
         <header>
             <nav>
                 <div class="logo"><a href="index.html">Elizabeth Lugo</a></div>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#excel">Excel Work</a></li>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#excel">Excel Work</a></li>
                     <li><a href="resume.html">Resume</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </nav>
         </header>
 
@@ -40,11 +45,11 @@
                 <div class="project-grid">
 
                     <div class="project-card">
-                    <img src="images/project1.jpg" alt="Project 1 screenshot">
+                    <img src="images/dividend-calculator.jpg" alt="Dividend Growth Calculator spreadsheet with projection chart">
                     <div class="project-card-content">
-                        <h3>Project Title</h3>
-                        <p>A short one or two sentence description of what this project does and what you used to build it.</p>
-                        <a href="#" target="_blank">View Project →</a>
+                        <h3>Dividend Growth Calculator</h3>
+                        <p>A dynamic dividend income projection tool built in Google Sheets, modeling compounding growth, reinvestment, and monthly contributions over a customizable timeframe.</p>
+                        <a href="https://docs.google.com/spreadsheets/d/1ob4tLQy2JamUqRikGOCBx2frD2Kp29GtwfXGYBsBzB8/edit?usp=sharing" target="_blank">View Project →</a>
                     </div>
                     </div>
 
@@ -91,5 +96,6 @@
                 </div>
             </div>
         </footer>
+        <script src="nav.js"></script>
     </body>
 </html>
