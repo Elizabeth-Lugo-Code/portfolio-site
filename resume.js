@@ -21,16 +21,6 @@ async function loadResume() {
   `).join('');
   document.getElementById('resume-skills').innerHTML = skillsHTML;
 
-  const excelHTML = data.excelProjects.map(project => `
-    <div class="resume-entry">
-      <h3>${project.title}</h3>
-      <ul>
-        ${project.bullets.map(bullet => `<li>${bullet}</li>`).join('')}
-      </ul>
-    </div>
-  `).join('');
-  document.getElementById('resume-excel-projects').innerHTML = excelHTML;
-
   const experienceHTML = data.experience.map(job => {
     if (job.isParent) {
       const subrolesHTML = job.subroles.map(sub => `

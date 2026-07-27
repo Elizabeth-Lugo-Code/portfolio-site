@@ -2,154 +2,129 @@
   "name": "Elizabeth Lugo",
   "location": "Brighton, CO",
   "phone": "(720) 394-1160",
-  "phoneLink": "+17203941160",
+  "phoneLink": "7203941160",
   "email": "norcross.beth@gmail.com",
   "linkedin": "https://www.linkedin.com/in/beth-norcross-lugo/",
-
-  "summary": "Data-focused professional with a background in software development at Google and Intel, with hands-on experience in SQL, Excel, and data-driven workflow automation. Bringing a strong analytical foundation to reporting and data analysis roles, with proven ability to improve system performance, automate processes, and translate business needs into clear, actionable insights.",
-
+  "summary": "Front-end focused software developer with 5+ years of experience building web-based tools, internal applications, and data-driven interfaces using HTML5, CSS3, JavaScript, and JSON. Combines development experience at Google and Intel with self-directed portfolio projects demonstrating modern responsive layout techniques (Flexbox, CSS Grid) and JSON-driven content architecture. Strong track record automating workflows, improving system performance, and translating business requirements into functional, maintainable code.",
   "skills": [
     {
-      "category": "Data & Reporting",
-      "items": "Microsoft Excel (Pivot Tables, XLOOKUP, VLOOKUP, IF/nested formulas, data modeling), Data Cleaning & Transformation, Metrics Analysis, Reporting & Documentation"
+      "category": "Front-End",
+      "items": "HTML5, CSS3 (Flexbox, CSS Grid, responsive design), JavaScript, JSON, DOM manipulation, fetch()/async-await"
     },
     {
-      "category": "Databases & Tools",
-      "items": "SQL (Oracle SQL, GoogleSQL / BigQuery), Yardi (ConciergeIQ), SmartRent, AppSheet, JIRA, Google Sheets"
+      "category": "Languages & Data",
+      "items": "Python, VB.NET, SQL (Oracle SQL, GoogleSQL), XML, PHP"
     },
     {
-      "category": "Technical",
-      "items": "Python, JavaScript, VB.NET, Process Automation, API Testing & QA, Requirements Gathering"
+      "category": "Version Control & Workflow",
+      "items": "Git, GitHub, GitHub Pages, JIRA, Agile/SCRUM"
+    },
+    {
+      "category": "Dev Environments",
+      "items": "VS Code, Visual Studio, PyCharm"
+    },
+    {
+      "category": "Other",
+      "items": "API Testing & QA, Requirements Gathering, Process Automation, Data Modeling (Excel/Google Sheets)"
     }
   ],
-
-  "excelProjects": [
-    {
-      "title": "Spell Efficiency Calculator — Elden Ring (Excel)",
-      "bullets": [
-        "Built a data model to evaluate and rank spells by cost-to-output efficiency ratio, incorporating multiple damage and resource variables",
-        "Used nested IF statements, lookup functions, and calculated fields to automate classification of high- vs. low-efficiency options",
-        "Designed the tool to be reusable and updateable as game variables change — applied the same structured thinking used in business reporting"
-      ]
-    },
-    {
-      "title": "Dynamic Pricing & Margin Tool — Supermarket Simulator (Excel / Google Sheets)",
-      "bullets": [
-        "Built a formula-driven pricing tool to calculate optimal markup percentages based on cost inputs and target margin goals",
-        "Automated 10–20% markup calculations to eliminate manual entry and ensure pricing consistency",
-        "Structured and maintained a clean dataset to support accurate, repeatable pricing decisions"
-      ]
-    },
-    {
-      "title": "Household Budget & Expense Tracker (Excel)",
-      "bullets": [
-        "Designed a structured monthly budget tracker with categorized expenses, variance analysis, and running totals",
-        "Applied XLOOKUP and pivot tables to summarize spending patterns and identify areas for adjustment"
-      ]
-    }
-  ],
-
   "experience": [
     {
       "title": "Front Desk Associate",
-      "company": "NFC Amenity Management — Denver, CO",
-      "dates": "Apr 2026 – Present",
+      "company": "NFC Amenity Management \u00b7 Denver, CO",
+      "dates": "Apr 2026 \u2013 Present",
       "bullets": [
-        "Manages resident records, package intake, and incident logs using Yardi ConciergeIQ and SmartRent, ensuring data accuracy across all entries",
-        "Tracks and routes maintenance requests and resident inquiries, maintaining organized logs to support operational follow-through",
-        "Maintains data completeness and consistency in daily shift reports to support management decision-making"
+        "Manage resident records, package intake, and incident logs using Yardi ConciergeIQ and SmartRent, maintaining data accuracy"
       ]
     },
     {
-      "title": "Career Break — Raising child at home",
-      "company": "",
-      "dates": "Dec 2022 – Apr 2026",
+      "title": "Career Break",
+      "company": "Raising Child at Home",
+      "dates": "Dec 2022 \u2013 Apr 2026",
       "bullets": [
-        "Continued building technical skills independently through self-directed Excel projects, maintaining proficiency in data modeling, formula logic, and spreadsheet design throughout the break"
+        "Continued building web development skills independently, including HTML5/CSS3/JavaScript projects and a JSON-driven personal portfolio site"
       ]
     },
     {
-      "title": "Content Creator",
-      "company": "YouTube — Remote",
-      "dates": "Jul 2025 – Dec 2025",
-      "bullets": [
-        "Produced and managed 50+ videos, using YouTube Analytics to track performance metrics and optimize content strategy",
-        "Analyzed audience engagement data to inform publishing decisions, contributing to 60% follower growth over 6 months"
-      ]
-    },
-    {
-      "title": "Google (via Accenture / ICONMA)",
-      "company": "Austin, TX (Remote)",
-      "dates": "Mar 2020 – Nov 2022",
       "isParent": true,
+      "title": "Google",
+      "company": "via Accenture & ICONMA \u00b7 Remote",
+      "dates": "Mar 2020 \u2013 Nov 2022",
       "subroles": [
         {
-          "title": "UI Front-End Developer",
-          "dates": "Dec 2021 – Nov 2022",
+          "title": "UI Front-End Developer (Accenture)",
+          "dates": "Dec 2021 \u2013 Nov 2022",
           "bullets": [
-            "Designed and implemented a web-based internal employee management tool, improving accessibility and usability of internal data for cross-functional teams",
+            "Designed and implemented a web-based internal employee management tool using HTML5, CSS, JavaScript, and PHP, improving accessibility and usability of internal data for cross-functional teams",
             "Improved system performance by 70% through optimization of data processing workflows and backend integrations",
             "Supported data integration using BigQuery, enabling data-driven functionality across internal systems",
             "Collaborated with stakeholders to gather requirements and translate business needs into technical solutions"
           ]
         },
         {
-          "title": "Application Developer",
-          "dates": "May 2022 – Jul 2022",
+          "title": "Application Developer (Accenture)",
+          "dates": "May 2022 \u2013 Jul 2022",
           "bullets": [
             "Developed a mobile application using AppSheet, leveraging structured Google Sheets data as the backend data source",
             "Organized and integrated data sources to ensure accurate, efficient data population and user-facing reliability"
           ]
         },
         {
-          "title": "Workflow Application Developer",
-          "dates": "Mar 2021 – Nov 2021",
+          "title": "Workflow Application Developer (Accenture)",
+          "dates": "Mar 2021 \u2013 Nov 2021",
           "bullets": [
-            "Developed and enhanced internal workflows using JavaScript and GoogleSQL to support data processing and reporting visibility",
-            "Implemented automated tracking solutions that improved team productivity and reporting accuracy",
-            "Mentored team members and supported onboarding through documentation and knowledge sharing"
+            "Developed workflow applications in JavaScript- and SQL-based internal languages, aligning implementation with design and content team specifications",
+            "Designed and executed API testing for workflows within the internal Connect Composer environment",
+            "Managed a team through rollout of new internal Connect Composer features and mentored new developers during onboarding",
+            "Automated reporting data-gathering sheets to improve accuracy of sprint reporting to management",
+            "Coordinated development review cycles with peer developers to verify quality before system and content testing"
           ]
         },
         {
-          "title": "Development Support Specialist II",
-          "dates": "Mar 2020 – Dec 2020",
+          "title": "Developer Support Specialist II (ICONMA)",
+          "dates": "Mar 2020 \u2013 Dec 2020",
           "bullets": [
-            "Supported development and maintenance of data-driven workflows, validating data integrations through API testing and QA",
-            "Identified and resolved system inefficiencies, improving performance and contributing to faster project delivery"
+            "Pioneered a multi-parallelism workflow development method to meet accelerated project deadlines",
+            "Developed, tested, and documented blackbox authorable workflows using JavaScript- and SQL-based internal tooling",
+            "Validated incoming project design documents through LucidChart, Google Docs, and Google Sheets",
+            "Validated data integrations through API testing and QA, identifying and resolving system inefficiencies to speed project delivery"
           ]
         }
       ]
     },
     {
-      "title": "Software Developer / Programming Consultant",
-      "company": "Colorado Farm Bureau Mutual Insurance — Centennial, CO",
-      "dates": "Jun 2019 – Oct 2019",
+      "title": "Software Developer",
+      "company": "Colorado Farm Bureau Mutual Insurance \u00b7 Centennial, CO",
+      "dates": "Jun 2019 \u2013 Oct 2019",
       "bullets": [
-        "Analyzed and resolved software and data issues using VB.NET and Oracle SQL, optimizing database input and retrieval efficiency",
-        "Developed scripts supporting system integration and collaborated with stakeholders to translate business requirements into solutions"
+        "Built reporting tools using VB.NET and Oracle SQL to simplify daily and month-end account reporting",
+        "Incorporated rollback scripts and version control tracking into deployment documentation"
       ]
     },
     {
-      "title": "Software Programmer",
-      "company": "Intel Corporation — Longmont, CO",
-      "dates": "Apr 2017 – May 2018",
+      "title": "Firmware Developer",
+      "company": "Intel Corporation (via Kelly Services) \u00b7 Longmont, CO",
+      "dates": "Apr 2017 \u2013 May 2018",
       "bullets": [
-        "Developed and optimized Python scripts to process and organize large datasets related to firmware packaging across multiple customer requirements",
-        "Automated repetitive data workflows, improving operational efficiency and standardizing outputs",
-        "Managed work tracking in JIRA; maintained data integrity using version control tools"
+        "Developed and organized Python scripts to process and package firmware data using JSON and XML for multi-customer delivery pipelines",
+        "Coordinated version-controlled firmware package delivery across major customers including Amazon, Dell, HP, and Oracle"
       ]
     }
   ],
-
   "education": [
     {
-      "degree": "B.S. Computer Information Systems, Software Development",
+      "degree": "B.S. Computer Information Systems \u2014 Web & Game Programming",
       "dates": "2020",
-      "details": "DeVry University · Dean's List (2016–2020) · Sigma Alpha Pi – National Society of Leadership and Success"
+      "details": "DeVry University \u00b7 Coursework: HTML5, CSS, JavaScript, PHP, MySQL, C# \u00b7 Dean's List (2016\u20132020) \u00b7 Sigma Alpha Pi \u2013 National Society of Leadership and Success"
+    },
+    {
+      "degree": "High School Diploma",
+      "dates": "2016",
+      "details": "Brighton High School \u00b7 Brighton, CO"
     }
   ],
-
   "recognition": [
-    "Employee Excellence Nomination — Colorado Farm Bureau Mutual Insurance (2019)"
+    "Employee Excellence Nomination \u2014 Colorado Farm Bureau Mutual Insurance (2019)",
+    "Gold Crown, National Yearbook Recognition \u2014 Rocky Mountain Journalism (2016)"
   ]
 }
