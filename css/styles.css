@@ -290,13 +290,14 @@ footer {
   max-width: 600px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+
 .contact-card h3 {
   font-size: 1.25rem;
   margin-bottom: 1rem;
   color: var(--color-primary-dark);
 }
+
 .contact-card p {
-  /* margin-bottom: 0.5rem; */
   color: var(--color-text);
 }
 
@@ -304,17 +305,9 @@ footer {
   margin-bottom: 1rem;
 }
 
-.contact-card a {
-  color: var(--color-bg);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.contact-card a:hover {
-  color: var(--color-primary-light);
-  text-decoration: underline;
-}
-
+/* Plain text links inside contact-card paragraphs (email, phone, socials).
+   Scoped to "p a" only so it never touches the .download-btn CTA below,
+   which controls its own white-on-teal color. */
 .contact-card p a {
   color: var(--color-primary-dark);
   font-weight: 600;
@@ -344,20 +337,46 @@ footer {
 
 
 /* ============================================================
-   7. PROJECTS PAGE SECTIONS
-   Controls output from projects.js. Only applies on projects.html.
+   6.5 SHARED PAGE INTRO / BODY SPACING
+   Used by any page built from two stacked root divs — a short
+   intro (headline + sub) followed by a body section (a grid, a
+   list, etc). Currently: Projects, Data Work.
+
+   The split matters: if both blocks used the same top+bottom
+   padding, stacking them adds the two together (e.g. 4rem + 4rem
+   = 8rem gap). Splitting it so the intro only pads its top and
+   the section only pads its bottom keeps the visual rhythm
+   consistent with one generous gap, not two.
    ============================================================ */
-.projects {
+.page-intro {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 3rem 2rem 0.5rem;
 }
 
-.projects h2 {
+.page-intro h2 {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
+.page-intro p {
+  color: var(--color-muted);
+  font-size: 1.05rem;
+  max-width: 700px;
+}
+
+.page-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 2rem 4rem;
+}
+
+
+/* ============================================================
+   7. CARD GRID (Projects & Data Work pages)
+   Controls output from projects.js and data-work.js. Both pages
+   reuse this same card layout since the content shape matches.
+   ============================================================ */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -370,6 +389,7 @@ footer {
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding-top: 0.75rem;
 }
 
 .project-card:hover {
@@ -384,8 +404,31 @@ footer {
   background-color: white;
 }
 
+.project-card-placeholder {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-bg);
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 .project-card-content {
   padding: 1.25rem;
+}
+
+.project-type {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
+  border-radius: 12px;
+  padding: 0.2rem 0.7rem;
+  margin-bottom: 0.6rem;
 }
 
 .project-card-content h3 {
@@ -517,49 +560,48 @@ footer {
 
 
 /* ============================================================
-   9. DATA WORK / WRITING / ABOUT / CONTACT PAGE SECTIONS
-   Reserved — populate as those pages are built. Placing this
-   comment block now keeps the section order predictable as new
-   page-specific rules get added.
+   9. WRITING / ABOUT / CONTACT PAGE SECTIONS
    ============================================================ */
-
 
 /* ============================================================
    9.1 ABOUT PAGE
+   Controls output from about.js. Only applies on about.html.
+   Vertical padding split the same way as page-intro/page-section
+   above (see 6.5) so the gap between the intro and the bio text
+   doesn't double up.
    ============================================================ */
+.about-intro {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1rem 0.5rem;
+}
 
-  .about-intro {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 3rem 1rem;
-  }
+.about-intro-image img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
 
-  .about-intro-image img {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  }
+.bio {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.5rem 2rem 3rem;
+}
 
-  .bio {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 2rem 2rem;
-  }
+.bio h2 {
+  font-size: 1.5rem;
+  color: var(--color-primary-dark);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
 
-  .bio h2 {
-    font-size: 1.5rem;
-    color: var(--color-primary-dark);
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .bio p {
-    color: var(--color-text);
-    font-size: 0.95rem;
-    margin-bottom: 1rem;
-  }
+.bio p {
+  color: var(--color-text);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
 
 
 /* ============================================================
