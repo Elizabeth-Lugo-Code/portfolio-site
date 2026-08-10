@@ -41,12 +41,26 @@ function renderCard(info) {
     <section class="page-section">
       <div class="contact-card">
         <a href="${mailtoHref}" class="download-btn">${info.emailCta}</a>
+        <button type="button" class="copy-email-btn" id="copy-email-btn">Copy email address</button>
         ${phoneHtml}
         <p>Connect with me on <a href="${info.linkedin}" target="_blank">LinkedIn</a>
            or check out my work on <a href="${info.github}" target="_blank">GitHub</a>.</p>
       </div>
     </section>
   `;
+
+  const copyBtn = document.getElementById('copy-email-btn');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(info.email).then(() => {
+        const originalText = copyBtn.textContent;
+        copyBtn.textContent = 'Copied!';
+        setTimeout(() => {
+          copyBtn.textContent = originalText;
+        }, 2000);
+      });
+    });
+  }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
