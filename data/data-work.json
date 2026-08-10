@@ -1,0 +1,23 @@
+{
+  "intro": {
+    "headline": "Data Work",
+    "sub": "Analytics tools and dashboards built in Google Sheets."
+  },
+  "items": [
+    {
+      "title": "Dividend Growth Calculator",
+      "description": "A dynamic dividend income projection tool modeling compounding growth, reinvestment, and monthly contributions over a customizable timeframe.",
+      "link": "https://docs.google.com/spreadsheets/d/1ob4tLQy2JamUqRikGOCBx2frD2Kp29GtwfXGYBsBzB8/edit?usp=sharing"
+    },
+    {
+      "title": "Household Budget Dashboard",
+      "description": "A budgeting dashboard tracking planned vs. actual spending by category, with automated transaction categorization and dynamic monthly filtering.",
+      "link": "https://docs.google.com/spreadsheets/d/1_DR5j077NGATMl52pcefGjiv7XdMLML9cV895duS22U/edit?usp=sharing"
+    },
+    {
+      "title": "Spell Efficiency Tracker",
+      "description": "An efficiency calculator originally built to optimize spell choices in Elden Ring, ranking options by damage-per-resource-cost with automated tier classification.",
+      "link": "https://docs.google.com/spreadsheets/d/1xIyGFgJjrdbmesJZctVKQ13CHqOxDlV0CqOH1xFAbH4/edit?usp=sharing"
+    }
+  ]
+}

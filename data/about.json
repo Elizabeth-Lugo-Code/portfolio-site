@@ -1,0 +1,13 @@
+{
+  "intro": {
+    "headline": "About Me",
+    "sub": "Developer. Analyst. Writer. Mom. Gamer."
+  },
+  "bio": {
+    "paragraphs": [
+      "I'm Elizabeth Lugo, a software developer with roots going back to 2017. My path hasn't been a straight line — I spent time working in Texas before moving back to my home state of Colorado, and took a career break to focus on raising my son. Now I'm back in the workforce and re-entering software development with a front-end focus, while building out freelance web development work on the side.",
+      "I have a naturally analytics-driven mind — give me a problem, whether it's a household budget or a video game mechanic, and there's a good chance I've already built a spreadsheet to break it down. That same instinct shows up in how I approach development: clear structure, clean data, and systems that make sense.",
+      "Outside of code, I'm a lifelong gamer (currently deep into Baldur's Gate 3, Elden Ring, and Medieval Dynasty, with the Ezio trilogy and Assassin's Creed Odyssey among my all-time favorites) and a creative writer working on my own fiction projects in my spare time."
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "intro": {
+    "headline": "Writing",
+    "sub": "Fiction, under a different name."
+  },
+  "bio": {
+    "paragraphs": [
+      "Outside of code, I write romantasy fiction under the pen name Hestia Hearthwood. I'm currently working on Blood Memory, a vampire romantasy following a reincarnated heroine navigating a centuries-old succession conflict, compulsion magic, and the pull of a bond she doesn't fully understand yet.",
+      "I'm also developing a new series, set on a colonized world shaped by bloodline-based powers — more details to come as it takes shape."
+    ]
+  },
+  "cta": {
+    "label": "Follow the journey (coming soon)",
+    "href": "#",
+    "note": "A dedicated site for story updates is in the works — check back soon."
+  }
+}

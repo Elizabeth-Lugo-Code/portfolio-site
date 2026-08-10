@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Elizabeth Lugo | Web Developer & Data Analyst",
+    "description": "Front-end developer and data analyst building JSON-driven websites and analytics tools."
+  },
+  "business": {
+    "name": "Elizabeth Lugo",
+    "email": "norcross.beth@gmail.com",
+    "phone": "(720) 394-1160",
+    "phoneLink": "7203941160",
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/beth-norcross-lugo/",
+      "github": "https://github.com/Elizabeth-Lugo-Code"
+    }
+  },
+  "nav": [
+    { "label": "Home", "href": "index.html", "page": "home" },
+    { "label": "Projects", "href": "projects.html", "page": "projects" },
+    { "label": "Data Work", "href": "data-work.html", "page": "data-work" },
+    { "label": "Writing", "href": "writing.html", "page": "writing" },
+    { "label": "About", "href": "about.html", "page": "about" },
+    { "label": "Resume", "href": "resume.html", "page": "resume" },
+    { "label": "Contact", "href": "contact.html", "page": "contact" }
+  ],
+  "footer": {
+    "copyrightName": ""
+  }
+}

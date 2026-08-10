@@ -1,0 +1,24 @@
+{
+  "intro": {
+    "headline": "Hi, I'm Elizabeth.",
+    "sub": "Data-driven problem solver with a software development background, now focused on analytics, reporting, and business intelligence.",
+    "image": "assets/images/pfp.jpg",
+    "imageAlt": "Elizabeth Lugo"
+  },
+  "freelance": {
+    "headline": "Freelance Web Development",
+    "body": "I build fast, clean, mobile-friendly static websites for local service-based businesses — no e-commerce, no logins, just a site that works and looks good.",
+    "targetBusinesses": [
+      "Construction & remodeling companies",
+      "Landscaping & lawn care",
+      "Salons & personal care services",
+      "Local contractors & tradespeople"
+    ],
+    "cta": { "label": "See my work", "href": "projects.html" }
+  },
+  "contactTeaser": {
+    "headline": "Get In Touch",
+    "sub": "Have a project in mind, or just want to connect?",
+    "cta": { "label": "Contact Me", "href": "contact.html" }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "intro": {
+    "headline": "Projects",
+    "sub": "A look at sites and tools I've built."
+  },
+  "items": [
+    {
+      "title": "Rocksteady LLC",
+      "type": "Freelance Client Site",
+      "description": "A multi-page site for a construction & remodeling business, built with a data-driven architecture (HTML shells + JSON content + modular JS) and deployed to GitHub Pages.",
+      "link": "https://elizabeth-lugo-code.github.io/rocksteady-llc/",
+      "image": "assets/images/rocksteady-preview.jpg"
+    }
+  ]
+}

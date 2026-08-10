@@ -1,0 +1,17 @@
+{
+  "intro": {
+    "headline": "Get In Touch",
+    "sub": "Have a project in mind, a question, or just want to connect? I'd love to hear from you."
+  },
+  "info": {
+    "email": "norcross.beth@gmail.com",
+    "emailCta": "Send me an email",
+    "linkedin": "https://www.linkedin.com/in/beth-norcross-lugo/",
+    "github": "https://github.com/Elizabeth-Lugo-Code",
+    "showPhone": true,
+    "phone": "(720) 394-1160",
+    "phoneLink": "7203941160",
+    "phoneCta": "Prefer to call? Feel free to give me a call.",
+    "phoneNote": "I work overnight shifts Sunday through Thursday, so I may be unavailable to answer during those hours — feel free to leave a message and I'll get back to you."
+  }
+}
