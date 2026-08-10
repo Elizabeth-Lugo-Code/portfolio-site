@@ -31,8 +31,8 @@
   "experience": [
     {
       "title": "Front Desk Associate",
-      "company": "NFC Amenity Management \u00b7 Denver, CO",
-      "dates": "Apr 2026 \u2013 Present",
+      "company": "NFC Amenity Management · Denver, CO",
+      "dates": "Apr 2026 – Present",
       "bullets": [
         "Manage resident records, package intake, and incident logs using Yardi ConciergeIQ and SmartRent, maintaining data accuracy"
       ]
@@ -40,7 +40,7 @@
     {
       "title": "Career Break",
       "company": "Raising Child at Home",
-      "dates": "Dec 2022 \u2013 Apr 2026",
+      "dates": "Dec 2022 – Apr 2026",
       "bullets": [
         "Continued building web development skills independently, including HTML5/CSS3/JavaScript projects and a JSON-driven personal portfolio site"
       ]
@@ -48,12 +48,12 @@
     {
       "isParent": true,
       "title": "Google",
-      "company": "via Accenture & ICONMA \u00b7 Remote",
-      "dates": "Mar 2020 \u2013 Nov 2022",
+      "company": "via Accenture & ICONMA · Remote",
+      "dates": "Mar 2020 – Nov 2022",
       "subroles": [
         {
           "title": "UI Front-End Developer (Accenture)",
-          "dates": "Dec 2021 \u2013 Nov 2022",
+          "dates": "Dec 2021 – Nov 2022",
           "bullets": [
             "Designed and implemented a web-based internal employee management tool using HTML5, CSS, JavaScript, and PHP, improving accessibility and usability of internal data for cross-functional teams",
             "Improved system performance by 70% through optimization of data processing workflows and backend integrations",
@@ -63,7 +63,7 @@
         },
         {
           "title": "Application Developer (Accenture)",
-          "dates": "May 2022 \u2013 Jul 2022",
+          "dates": "May 2022 – Jul 2022",
           "bullets": [
             "Developed a mobile application using AppSheet, leveraging structured Google Sheets data as the backend data source",
             "Organized and integrated data sources to ensure accurate, efficient data population and user-facing reliability"
@@ -71,7 +71,7 @@
         },
         {
           "title": "Workflow Application Developer (Accenture)",
-          "dates": "Mar 2021 \u2013 Nov 2021",
+          "dates": "Mar 2021 – Nov 2021",
           "bullets": [
             "Developed workflow applications in JavaScript- and SQL-based internal languages, aligning implementation with design and content team specifications",
             "Designed and executed API testing for workflows within the internal Connect Composer environment",
@@ -82,7 +82,7 @@
         },
         {
           "title": "Developer Support Specialist II (ICONMA)",
-          "dates": "Mar 2020 \u2013 Dec 2020",
+          "dates": "Mar 2020 – Dec 2020",
           "bullets": [
             "Pioneered a multi-parallelism workflow development method to meet accelerated project deadlines",
             "Developed, tested, and documented blackbox authorable workflows using JavaScript- and SQL-based internal tooling",
@@ -94,8 +94,8 @@
     },
     {
       "title": "Software Developer",
-      "company": "Colorado Farm Bureau Mutual Insurance \u00b7 Centennial, CO",
-      "dates": "Jun 2019 \u2013 Oct 2019",
+      "company": "Colorado Farm Bureau Mutual Insurance · Centennial, CO",
+      "dates": "Jun 2019 – Oct 2019",
       "bullets": [
         "Built reporting tools using VB.NET and Oracle SQL to simplify daily and month-end account reporting",
         "Incorporated rollback scripts and version control tracking into deployment documentation"
@@ -103,8 +103,8 @@
     },
     {
       "title": "Firmware Developer",
-      "company": "Intel Corporation (via Kelly Services) \u00b7 Longmont, CO",
-      "dates": "Apr 2017 \u2013 May 2018",
+      "company": "Intel Corporation (via Kelly Services) · Longmont, CO",
+      "dates": "Apr 2017 – May 2018",
       "bullets": [
         "Developed and organized Python scripts to process and package firmware data using JSON and XML for multi-customer delivery pipelines",
         "Coordinated version-controlled firmware package delivery across major customers including Amazon, Dell, HP, and Oracle"
@@ -113,18 +113,18 @@
   ],
   "education": [
     {
-      "degree": "B.S. Computer Information Systems \u2014 Web & Game Programming",
+      "degree": "B.S. Computer Information Systems — Web & Game Programming",
       "dates": "2020",
-      "details": "DeVry University \u00b7 Coursework: HTML5, CSS, JavaScript, PHP, MySQL, C# \u00b7 Dean's List (2016\u20132020) \u00b7 Sigma Alpha Pi \u2013 National Society of Leadership and Success"
+      "details": "DeVry University · Coursework: HTML5, CSS, JavaScript, PHP, MySQL, C# · Dean's List (2016–2020) · Sigma Alpha Pi – National Society of Leadership and Success"
     },
     {
       "degree": "High School Diploma",
       "dates": "2016",
-      "details": "Brighton High School \u00b7 Brighton, CO"
+      "details": "Brighton High School · Brighton, CO"
     }
   ],
   "recognition": [
-    "Employee Excellence Nomination \u2014 Colorado Farm Bureau Mutual Insurance (2019)",
-    "Gold Crown, National Yearbook Recognition \u2014 Rocky Mountain Journalism (2016)"
+    "Employee Excellence Nomination — Colorado Farm Bureau Mutual Insurance (2019)",
+    "Gold Crown, National Yearbook Recognition — Rocky Mountain Journalism (2016)"
   ]
 }

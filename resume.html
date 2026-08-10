@@ -7,21 +7,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
-
+    <body data-page="resume">
         <header>
             <nav>
                 <div class="logo"><a href="index.html">Elizabeth Lugo</a></div>
-                <ul class="nav-links" id="nav-links">
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#projects">Projects</a></li>
-                    <li><a href="index.html#excel">Excel Work</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="index.html#blog">Blog</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
-                </ul>
+                <ul class="nav-links" id="nav-links"></ul>
                 <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
                     <span></span>
                     <span></span>
@@ -31,12 +23,12 @@
         </header>
 
         <main>
-            <section class="resume-hero">
+            <section class="resume-intro">
                 <h1 id="resume-name"></h1>
                 <p class="resume-location" id="resume-contact"></p>
                 <div class="download-buttons">
-                <a href="images/resume.pdf" download class="download-btn">Download PDF</a>
-                <a href="images/resume.docx" download class="download-btn">Download .docx</a>
+                    <a href="assets/files/resume.pdf" download class="download-btn">Download PDF</a>
+                    <a href="assets/files/resume.docx" download class="download-btn">Download .docx</a>
                 </div>
             </section>
 
@@ -66,18 +58,11 @@
             </section>
         </main>
 
-        <script src="resume.js"></script>
-
         <footer>
-            <div class="footer-content">
-            <p>&copy; 2026 Elizabeth Lugo. Built from scratch.</p>
-            <div class="footer-links">
-                <a href="mailto:norcross.beth@gmail.com">Email</a>
-                <a href="https://www.linkedin.com/in/beth-norcross-lugo/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/Elizabeth-Lugo-Code" target="_blank">GitHub</a>
-            </div>
-            </div>
+            <div id="footer-root"></div>
         </footer>
-        <script src="nav.js"></script>
+
+        <script src="js/site.js"></script>
+        <script src="js/resume.js"></script>
     </body>
 </html>

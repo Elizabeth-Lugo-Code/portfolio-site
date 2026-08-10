@@ -301,13 +301,13 @@ footer {
 }
 
 .contact-card a {
-  color: var(--color-primary);
+  color: var(--color-bg);
   font-weight: 600;
   text-decoration: none;
 }
 
 .contact-card a:hover {
-  color: var(--color-primary-dark);
+  color: var(--color-primary-light);
   text-decoration: underline;
 }
 

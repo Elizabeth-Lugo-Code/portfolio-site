@@ -1,5 +1,5 @@
 async function loadResume() {
-  const response = await fetch('resume-data.json');
+  const response = await fetch('data/resume-content.json');
   const data = await response.json();
 
   document.getElementById('resume-name').textContent = data.name;
