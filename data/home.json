@@ -19,6 +19,14 @@
   "contactTeaser": {
     "headline": "Get In Touch",
     "sub": "Have a project in mind, or just want to connect?",
+    "info": {
+        "emailDetails": {"intro": "Email me at", "email": "norcross.beth@gmail.com"},
+        "phoneDetails": {"intro": "Feel free to call me at", "phone": "(720) 394-1160", "phoneLink": "7203941160"},
+        "linkedinDetails": {"intro": "Connect with me on", "linkedin": "https://www.linkedin.com/in/beth-norcross-lugo/", "label": "LinkedIn"},
+        "githubDetails": {"intro": "Check out my work on", "github": "https://github.com/Elizabeth-Lugo-Code", "label": "GitHub"},
+        "writingDetails": {"intro": "I'm writing a book! Follow along with my latest work as", "writing": "Hestia Hearthwood", "link": "writing.html"},
+        "note": "Feel free to reach out!"
+    },
     "cta": { "label": "Contact Me", "href": "contact.html" }
   }
 }

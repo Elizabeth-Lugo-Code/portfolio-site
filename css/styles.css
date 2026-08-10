@@ -290,14 +290,18 @@ footer {
   max-width: 600px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
-
+.contact-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--color-primary-dark);
+}
 .contact-card p {
-  margin-bottom: 0.9rem;
+  /* margin-bottom: 0.5rem; */
   color: var(--color-text);
 }
 
 .contact-card p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .contact-card a {
@@ -311,10 +315,22 @@ footer {
   text-decoration: underline;
 }
 
+.contact-card p a {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-card p a:hover {
+  color: var(--color-primary-light);
+  text-decoration: underline;
+}
+
 .contact-note {
   color: var(--color-muted);
   font-style: italic;
   margin-top: 1.5rem !important;
+  margin-bottom: 1rem;
 }
 
 .coming-soon {

@@ -54,8 +54,15 @@ function renderContactTeaser(contactTeaser) {
   root.innerHTML = `
     <section id="contact" class="contact">
       <h2>${contactTeaser.headline}</h2>
+
       <div class="contact-card">
-        <p>${contactTeaser.sub}</p>
+        <h3>${contactTeaser.sub}</h3>
+        <p>${contactTeaser.info.emailDetails.intro} <a href="mailto:${contactTeaser.info.emailDetails.email}">${contactTeaser.info.emailDetails.email}</a></p>
+        <p>${contactTeaser.info.phoneDetails.intro} <a href="tel:+1${contactTeaser.info.phoneDetails.phoneLink}">${contactTeaser.info.phoneDetails.phone}</a></p>
+        <p>${contactTeaser.info.linkedinDetails.intro} <a href="${contactTeaser.info.linkedinDetails.linkedin}" target="_blank">${contactTeaser.info.linkedinDetails.label}</a></p>
+        <p>${contactTeaser.info.githubDetails.intro} <a href="${contactTeaser.info.githubDetails.github}" target="_blank">${contactTeaser.info.githubDetails.label}</a></p>
+        <p>${contactTeaser.info.writingDetails.intro} <a href="${contactTeaser.info.writingDetails.link}" target="_blank">${contactTeaser.info.writingDetails.writing}</a></p>
+        <p class="contact-note">${contactTeaser.info.note}</p>
         <a href="${contactTeaser.cta.href}" class="download-btn">${contactTeaser.cta.label}</a>
       </div>
     </section>
