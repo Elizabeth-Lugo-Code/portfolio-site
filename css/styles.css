@@ -196,6 +196,19 @@ footer {
   text-decoration: none;
 }
 
+/* Used when a CTA's destination isn't live yet (e.g. writing.html's
+   "follow the journey" link before the stories site exists). Same
+   button shape, muted so it doesn't read as clickable. */
+.btn-disabled {
+  background-color: var(--color-muted);
+  cursor: default;
+}
+
+.btn-disabled:hover {
+  background-color: var(--color-muted);
+  text-decoration: none;
+}
+
 
 /* ============================================================
    6. HOME PAGE SECTIONS
@@ -299,6 +312,10 @@ footer {
 
 .contact-card p {
   color: var(--color-text);
+}
+
+.contact-card .download-btn {
+  margin-bottom: 1.25rem;
 }
 
 .contact-card p:last-child {
