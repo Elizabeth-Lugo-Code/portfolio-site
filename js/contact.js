@@ -40,7 +40,7 @@ function renderCard(info) {
   root.innerHTML = `
     <section class="page-section">
       <div class="contact-card">
-        <a href="${mailtoHref}" class="download-btn">${info.emailCta}</a>
+        <a href="${mailtoHref}" class="download-btn" target="_blank">${info.emailCta}</a>
         <button type="button" class="copy-email-btn" id="copy-email-btn">Copy email address</button>
         ${phoneHtml}
         <p>Connect with me on <a href="${info.linkedin}" target="_blank">LinkedIn</a>
