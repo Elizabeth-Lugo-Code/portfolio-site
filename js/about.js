@@ -22,6 +22,9 @@ function renderIntro(intro) {
         <h1>${intro.headline}</h1>
         <p>${intro.sub}</p>
       </div>
+      <div class="about-intro-image">
+        <img src="${intro.image}" alt="${intro.imageAlt}">
+      </div>
     </section>
   `;
 }

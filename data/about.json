@@ -1,7 +1,9 @@
 {
   "intro": {
     "headline": "About Me",
-    "sub": "Developer. Analyst. Writer. Mom. Gamer."
+    "sub": "Developer. Analyst. Writer. Mom. Gamer.",
+    "image": "assets/images/pfp.jpg",
+    "imageAlt": "Elizabeth Lugo"
   },
   "bio": {
     "headline": "Who am I?",
