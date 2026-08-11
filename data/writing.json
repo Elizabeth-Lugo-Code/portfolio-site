@@ -10,8 +10,7 @@
     ]
   },
   "cta": {
-    "label": "Follow the journey (coming soon)",
-    "href": "#",
-    "note": "A dedicated site for story updates is in the works — check back soon."
+    "label": "Follow the journey",
+    "href": "https://elizabeth-lugo-code.github.io/hestia-hearthwood/"
   }
 }
