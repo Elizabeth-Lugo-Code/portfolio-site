@@ -1,11 +1,13 @@
 {
   "name": "Elizabeth Lugo",
+  "title": "Front-End Software Developer",
   "location": "Brighton, CO",
   "phone": "(720) 394-1160",
   "phoneLink": "7203941160",
   "email": "norcross.beth@gmail.com",
   "linkedin": "https://www.linkedin.com/in/beth-norcross-lugo/",
-  "summary": "Front-end focused software developer with 5+ years of experience building web-based tools, internal applications, and data-driven interfaces using HTML5, CSS3, JavaScript, and JSON. Combines development experience at Google and Intel with self-directed portfolio projects demonstrating modern responsive layout techniques (Flexbox, CSS Grid) and JSON-driven content architecture. Strong track record automating workflows, improving system performance, and translating business requirements into functional, maintainable code.",
+  "portfolio": "https://elizabeth-lugo-code.github.io/portfolio-site/",
+  "summary": "Front-end focused software developer with 5+ years of experience building web-based tools, internal applications, and data-driven interfaces using HTML5, CSS3, JavaScript, and JSON. Combines development experience at Google and Intel with a growing freelance practice building JSON-driven, modular websites for small businesses, plus self-directed portfolio and author-site projects demonstrating responsive layout techniques (Flexbox, CSS Grid) and reusable, template-based architecture. Comfortable leveraging AI-assisted development workflows to accelerate builds, debug efficiently, and keep code clean and well-documented. Strong track record automating workflows, training and onboarding team members, and translating business requirements into functional, maintainable solutions.",
   "skills": [
     {
       "category": "Front-End",
@@ -25,7 +27,41 @@
     },
     {
       "category": "Other",
-      "items": "API Testing & QA, Requirements Gathering, Process Automation, Data Modeling (Excel/Google Sheets)"
+      "items": "AI-Assisted Development (leveraging LLM tooling for code review, architecture planning, and debugging), API Testing & QA, Requirements Gathering, Process Automation, Technical Documentation, Data Modeling (Excel/Google Sheets)"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Personal Portfolio Site",
+      "link": "https://elizabeth-lugo-code.github.io/portfolio-site/",
+      "bullets": [
+        "Designed and built a responsive, multi-page portfolio site from scratch using HTML5, CSS3 (Flexbox, CSS Grid), and vanilla JavaScript",
+        "Architected a fully modular, JSON-driven content system using fetch() and dynamic DOM rendering (.map()/template literals), separating content from markup for long-term maintainability",
+        "Deployed and version-controlled through Git/GitHub, hosted on GitHub Pages"
+      ]
+    },
+    {
+      "title": "Reusable Site Template",
+      "link": "https://github.com/Elizabeth-Lugo-Code/site-template",
+      "bullets": [
+        "Built a reusable, JSON-driven website template/framework to standardize architecture and speed up build time across independent web projects",
+        "Established reusable front-end conventions (modular CSS sectioning, per-page JSON content files, consistent layout patterns) applied across multiple live sites"
+      ]
+    },
+    {
+      "title": "Author Website — Hestia Hearthwood",
+      "link": "https://elizabeth-lugo-code.github.io/hestia-hearthwood/",
+      "bullets": [
+        "Built a JSON-driven, multi-page author website to support an independent creative writing project, extending the reusable site template to a second, fully independent use case",
+        "Managed content, styling, and deployment independently using the same Git/GitHub-based workflow as other properties"
+      ]
+    },
+    {
+      "title": "Freelance Client Site — Rocksteady LLC",
+      "link": "",
+      "bullets": [
+        "Built a proof-of-concept marketing website for a local construction business using the reusable site template, as part of an in-progress freelance web development practice targeting service-based small businesses"
+      ]
     }
   ],
   "experience": [
@@ -34,7 +70,12 @@
       "company": "NFC Amenity Management · Denver, CO",
       "dates": "Apr 2026 – Present",
       "bullets": [
-        "Manage resident records, package intake, and incident logs using Yardi ConciergeIQ and SmartRent, maintaining data accuracy"
+        "Perform nightly package audits reconciling physical inventory against Yardi ConciergeIQ system records, identifying and correcting data discrepancies to maintain accurate resident package tracking",
+        "Manage end-to-end package lifecycle in Yardi, from intake and system logging through resident pickup confirmation, processing real-time deliveries overnight",
+        "Generate and archive daily Keyper system reports into a structured file system for recordkeeping and audit trail",
+        "Serve as first point of contact for emergency maintenance issues overnight, creating detailed work orders and coordinating real-time response with maintenance teams via phone and Microsoft Teams",
+        "Conduct nightly property and equipment inspections to maintain consistent resident experience",
+        "Document and hand off shift activity via structured end-of-shift reports, ensuring continuity across day/night teams"
       ]
     },
     {
@@ -46,59 +87,48 @@
       ]
     },
     {
-      "isParent": true,
-      "title": "Google",
-      "company": "via Accenture & ICONMA · Remote",
-      "dates": "Mar 2020 – Nov 2022",
-      "subroles": [
-        {
-          "title": "UI Front-End Developer (Accenture)",
-          "dates": "Dec 2021 – Nov 2022",
-          "bullets": [
-            "Designed and implemented a web-based internal employee management tool using HTML5, CSS, JavaScript, and PHP, improving accessibility and usability of internal data for cross-functional teams",
-            "Improved system performance by 70% through optimization of data processing workflows and backend integrations",
-            "Supported data integration using BigQuery, enabling data-driven functionality across internal systems",
-            "Collaborated with stakeholders to gather requirements and translate business needs into technical solutions"
-          ]
-        },
-        {
-          "title": "Application Developer (Accenture)",
-          "dates": "May 2022 – Jul 2022",
-          "bullets": [
-            "Developed a mobile application using AppSheet, leveraging structured Google Sheets data as the backend data source",
-            "Organized and integrated data sources to ensure accurate, efficient data population and user-facing reliability"
-          ]
-        },
-        {
-          "title": "Workflow Application Developer (Accenture)",
-          "dates": "Mar 2021 – Nov 2021",
-          "bullets": [
-            "Developed workflow applications in JavaScript- and SQL-based internal languages, aligning implementation with design and content team specifications",
-            "Designed and executed API testing for workflows within the internal Connect Composer environment",
-            "Managed a team through rollout of new internal Connect Composer features and mentored new developers during onboarding",
-            "Automated reporting data-gathering sheets to improve accuracy of sprint reporting to management",
-            "Coordinated development review cycles with peer developers to verify quality before system and content testing"
-          ]
-        },
-        {
-          "title": "Developer Support Specialist II (ICONMA)",
-          "dates": "Mar 2020 – Dec 2020",
-          "bullets": [
-            "Pioneered a multi-parallelism workflow development method to meet accelerated project deadlines",
-            "Developed, tested, and documented blackbox authorable workflows using JavaScript- and SQL-based internal tooling",
-            "Validated incoming project design documents through LucidChart, Google Docs, and Google Sheets",
-            "Validated data integrations through API testing and QA, identifying and resolving system inefficiencies to speed project delivery"
-          ]
-        }
+      "title": "UI Front-End Developer",
+      "company": "Google (via Accenture) · Remote",
+      "dates": "Dec 2021 – Nov 2022",
+      "bullets": [
+        "Built and maintained front-end interfaces using HTML5, CSS, and JavaScript for an internal employee management tool used across cross-functional teams",
+        "Integrated a PHP-based data injection layer to consume BigQuery data pipelines developed by backend teammates, connecting the front-end UI to live organizational data",
+        "Collaborated within a 4-person cross-functional team (Google stakeholders and Accenture developers), participating in recurring stakeholder meetings to align on requirements",
+        "Adapted to evolving project scope amid project management turnover, maintaining delivery continuity and code quality"
       ]
     },
     {
-      "title": "Software Developer",
+      "title": "Workflow Application Developer",
+      "company": "Google (via Accenture) · Remote",
+      "dates": "Mar 2021 – Nov 2021",
+      "bullets": [
+        "Developed workflow applications in Connect Composer using JavaScript and GoogleSQL, maintaining continuity of an ongoing project through a transition in employer of record",
+        "Trained and onboarded 7 new developers on internal workflow tooling, testing procedures, and documentation standards",
+        "Built 3 custom Google Sheets tools to streamline time-tracking and data organization for daily reporting under an Agile/SCRUM process, improving reporting accuracy for management",
+        "Maintained project continuity and served as a stable technical resource through daily stand-ups and successive management transitions"
+      ]
+    },
+    {
+      "title": "Developer Support Specialist II",
+      "company": "Google (via ICONMA) · Remote",
+      "dates": "Mar 2020 – Dec 2020",
+      "bullets": [
+        "Developed, tested, and documented workflow applications in Connect Composer using JavaScript and GoogleSQL for internal Google tooling",
+        "Engineered a reusable, general-purpose API testing workflow capable of validating data retrieval across any given API and rendering results as structured, JSON-like objects, reducing repetitive setup for future integrations",
+        "Authored technical documentation for each completed workflow, detailing API usage, testing procedures, and run instructions for handoff",
+        "Shadowed senior developers to ramp up on internal tooling, then independently owned a fast-tracked workflow project, adapting to evolving revision processes under compressed timelines",
+        "Participated in weekly cross-functional check-ins to align on project status across the development team"
+      ]
+    },
+    {
+      "title": "Software Developer Intern",
       "company": "Colorado Farm Bureau Mutual Insurance · Centennial, CO",
       "dates": "Jun 2019 – Oct 2019",
       "bullets": [
-        "Built reporting tools using VB.NET and Oracle SQL to simplify daily and month-end account reporting",
-        "Incorporated rollback scripts and version control tracking into deployment documentation"
+        "Designed and built a VB.NET desktop application with an Oracle SQL backend to automate monthly, quarterly, and annual accounting reports previously compiled manually in Excel, consolidating data via user-defined parameters (text inputs, dropdowns, selection filters)",
+        "Delivered the full project lifecycle independently: application development, rollback scripts, server installation documentation, and end-user testing/how-to guides",
+        "Partnered with the department Business Analyst in weekly progress meetings to align tool functionality with accounting team workflows",
+        "Received internal award nomination for delivering significant operational efficiency gains; tool was adopted department-wide"
       ]
     },
     {
@@ -106,8 +136,21 @@
       "company": "Intel Corporation (via Kelly Services) · Longmont, CO",
       "dates": "Apr 2017 – May 2018",
       "bullets": [
-        "Developed and organized Python scripts to process and package firmware data using JSON and XML for multi-customer delivery pipelines",
-        "Coordinated version-controlled firmware package delivery across major customers including Amazon, Dell, HP, and Oracle"
+        "Processed and packaged firmware data for 8 major customers (including Amazon, Dell, HP, and Oracle) using Python-based post-processing scripts, managing custom inputs per client and reconciling packaged output against source repository data",
+        "Documented all post-processing changes and repository updates per client for version-controlled delivery tracking",
+        "Trained and onboarded 3 new team members on firmware packaging processes and post-processing tooling as the team scaled",
+        "Independently developed a Python-based prototype tool to streamline and partially automate the manual post-processing workflow, reducing personal processing time",
+        "Collaborated cross-functionally with IT/DevOps to integrate legacy server infrastructure into the team's workflow"
+      ]
+    }
+  ],
+  "additionalExperience": [
+    {
+      "title": "Informal Development Consultant",
+      "company": "Peer Debugging Support",
+      "dates": "Jul 2016 – Feb 2020",
+      "bullets": [
+        "Provided ongoing debugging and troubleshooting support to a professional developer on a recurring basis throughout college coursework, diagnosing and resolving bugs across various codebases"
       ]
     }
   ],
